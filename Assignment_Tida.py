@@ -13,6 +13,6 @@ if answer.lower() == "y":
             guess = input("Can you guess my favourite colour? ")
         elif guess.lower() == fave_colour.lower():
                 break
-    print ("That's right! Congratulations " + player_name + "! It took you " + ,no_guesses,"guesses.")
+    print ("That's right! Congratulations " + player_name + "! It took you",no_guesses,"guesses!")
 if answer.lower() == "n":
     print("Alright then. See you later!")
